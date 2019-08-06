@@ -9,9 +9,8 @@ import java.util.Stack;
 class Solution {
     public int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i < tokens.length; i ++) {
-            String token = tokens[i];
-            if ("+".equals(token) || "-".equals(token) || "*".equals(token) || "/".equals(token)) {
+        for (String token : tokens) {
+            if ("+-*/".contains(token)) {
                 int val1 = stack.pop();
                 int val2 = stack.pop();
                 if ("+".equals(token)) {
