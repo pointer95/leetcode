@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
  * date: 2019-08-09
  */
 class Solution {
-    ArrayDeque<Integer> deque = new ArrayDeque<>();
+    private ArrayDeque<Integer> deque = new ArrayDeque<>();
 
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums == null || nums.length < 2 || k < 2) return nums;
