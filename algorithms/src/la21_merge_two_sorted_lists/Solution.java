@@ -1,5 +1,7 @@
 package la21_merge_two_sorted_lists;
 
+import common.ListNode;
+
 /**
  * source: https://leetcode-cn.com/problems/merge-two-sorted-lists/
  * date: 2019-08-02

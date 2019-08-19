@@ -1,5 +1,7 @@
 package la141_linked_list_cycle;
 
+import common.ListNode;
+
 /**
  * source: https://leetcode-cn.com/problems/linked-list-cycle/
  * date: 2019-08-02

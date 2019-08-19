@@ -1,5 +1,7 @@
 package la2_add_two_numbers;
 
+import common.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {

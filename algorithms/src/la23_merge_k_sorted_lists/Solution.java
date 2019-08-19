@@ -1,5 +1,7 @@
 package la23_merge_k_sorted_lists;
 
+import common.ListNode;
+
 /**
  * source: https://leetcode-cn.com/problems/merge-k-sorted-lists/
  * date: 2019-08-02
