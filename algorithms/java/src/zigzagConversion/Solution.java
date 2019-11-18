@@ -1,4 +1,4 @@
-package zigzag_conversion;
+package zigzagConversion;
 
 import java.util.ArrayList;
 import java.util.List;
