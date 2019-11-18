@@ -37,11 +37,11 @@ class Solution {
             }
         }
         if (board[r][c] == '.') {
-                    int areaIndex = (r / 3) * 3 + c / 3;
-                    for (int num = 1; num <= 9; num++) {
-                        boolean notUse = !(row[r][num]
-                                || col[c][num]
-                                || area[areaIndex][num]);
+            int areaIndex = (r / 3) * 3 + c / 3;
+            for (int num = 1; num <= 9; num++) {
+                boolean notUse = !(row[r][num]
+                        || col[c][num]
+                        || area[areaIndex][num]);
                 if (notUse) {
                     row[r][num] = true;
                     col[c][num] = true;
