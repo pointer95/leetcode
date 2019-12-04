@@ -1,8 +1,5 @@
 package spiralMatrix2;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * source: https://leetcode-cn.com/problems/spiral-matrix-ii/
  * @author: pointer
@@ -10,7 +7,7 @@ import java.util.List;
  */
 class Solution {
     public int[][] generateMatrix(int n) {
-        int[][] matrix = new int[][];
+        int[][] matrix = new int[n][n];
         if (n <= 0) {
             return matrix;
         }
