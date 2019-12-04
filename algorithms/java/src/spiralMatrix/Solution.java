@@ -30,7 +30,7 @@ class Solution {
                 res.add(matrix[i][col-1-c]);
             }
             // right
-            for (int i = col-1-(c+1); row-1-r != r && i > c; i--) {
+            for (int i = col-1-(c+1); row-1-r != r && i >= c; i--) {
                 res.add(matrix[row-1-r][i]);
             }
             // up
